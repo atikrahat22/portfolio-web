@@ -25,10 +25,10 @@
     border: none;
     font-size: 20px;
     cursor: pointer;
-    margin: 15px ;
+    margin: none; ;
 }
 .btn:hover {
-    background-color: #e05c00; /* A slightly darker orange */
+    background-color: #e05c00; 
     transform: translateY(-2px); /* Makes it look like it's lifting slightly */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
 }
@@ -230,3 +230,7 @@ footer input[type="text"] , footer input[type="email"] , footer textarea{
    
 }
 
+.btn-size{
+    width: 150px;
+    
+}
